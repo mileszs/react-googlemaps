@@ -54,8 +54,6 @@ var ReactMap = React.createClass({
       height: this.props.height
     };
 
-    console.log('mapdiv', this.state.mapDiv)
-
     var map;
     if (this.state.mapLifeCycleState !== MapLifeCycle.CREATING_HOLDER) {
       map = (
