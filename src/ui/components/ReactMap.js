@@ -43,8 +43,7 @@ var ReactMap = React.createClass({
   componentDidUpdate: function() {
     if (this.state.mapLifeCycleState === MapLifeCycle.CREATING_MAP) {
       this.setState({
-        mapLifeCycleState: null,
-        mapDiv: this.refs.mapHolder.getDOMNode()
+        mapLifeCycleState: null
       });
     }
   },
